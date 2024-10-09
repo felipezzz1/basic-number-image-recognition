@@ -6,7 +6,7 @@ from PIL import Image
 
 
 def createExamples():
-    numberArrayExamples = open('numberArrayExample.txt', 'a')
+    numberArrayExamples = open('numArEx.txt', 'a')
     numbersWeGot = range(1,10)
 
     for eachNumber in numbersWeGot:
